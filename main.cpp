@@ -1,11 +1,12 @@
 #include <iostream>
-
-using std::cout;
+#include "function.h"
 
 int main()
 {
-    cout << "This is the main. \n";
-    cout << "This is the first change to main.\n";
+    std::cout << "This is the main. \n"
+              << std::endl;
+
+    displayName("Jack");
 
     return 0;
 }
